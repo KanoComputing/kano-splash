@@ -46,7 +46,7 @@
 #include "imageLayer.h"
 #include "loadpng.h"
 #include "get-start-time.h"
-#include "kano-log.h"
+#include "kano_c_logging.h"
 
 #include "bcm_host.h"
 
@@ -67,7 +67,7 @@ typedef struct _DEFAULT_ANIMATIONS {
 } DEFAULT_ANIMATIONS;
 
 DEFAULT_ANIMATIONS animations[] = {
-    { "loader-animation", "/usr/share/kano-toolset/kano-splash/splash-animation-loader" }
+    { "loader-animation", "/usr/share/kano-splash/splash-animation-loader" }
 };
 
 //-------------------------------------------------------------------------
